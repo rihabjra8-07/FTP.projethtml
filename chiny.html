@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr-FR" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="refresh" content="30"> -->
+  <title>validation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .li {
+      color: #000;
+      display: flex;
+      align-self: flex-end;
+      margin: 10px;
+    }
+
+    a {
+      text-decoration: auto;
+      color: black;
+    }
+
+    li:hover {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .p {
+      color: rgb(217, 215, 218);
+      align-items: center;
+    }
+
+    .container {
+      display: flex;
+      flex-flow: row wrap;
+      margin: 5px;
+      justify-content: center;
+      padding: 20px 40px;
+      gap: 30px;
+      text-align: center;
+      align-items: flex-start;
+      height: 100vh;
+    }
+
+    .it {
+      background-color: rgb(228, 220, 220);
+      border-radius: 5px;
+      padding: 6px;
+    }
+
+    .on {
+      border: 0px solid black;
+      width: 250px;
+      height: 200px;
+      border-radius: 12px;
+      background-color: rgb(235, 231, 228);
+    }
+
+    .button {
+      border-radius: 8px;
+      background-color: rgb(57, 57, 233);
+      margin-top: 12px;
+      padding: 8px;
+
+    }
+
+    .button:hover {
+      background-color: rgb(219, 216, 209);
+    }
+
+    .card-footer {
+      background-color: rgb(139, 178, 236);
+      padding: 1rem 16px;
+      display: flex;
+      justify-content: center;
+      color: #000;
+
+    }
+  </style>
+
+</head>
+
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://tse2.mm.bing.net/th/id/OIP.vAbRnf5Jn5xDMI5EOrymGgHaA7?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+          alt="" width="250%" height="80px" class="d-inline-block align-text-top">
+
+      </a>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Caractéristiques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Entreprise</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " href="#" tabindex="-1" aria-disabled="true">Trafication</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <h1>
+    <center> nos offres</center>
+  </h1>
+  <p>
+    <center>" Choisissez le plan qui correspond le mieux à votre activité. Profitez d’outils puissants, d’un stockage
+      sécurisé et d’une assistance disponible à tout moment. "sir le plan qui correspand le mieux à votre activité.
+      profitez d'outils puissants , d'un stockage
+      sécurisé et d'une assistance disponible à tout moment</center>
+  </p>
+  <div class="container">
+    <div class="gratuit on">
+      <div class="gratuit it">
+        <center><b>gratuit</b></center>
+      </div>
+      <div>
+        <center><b>0$/mois</b></center> 10 utilisteur inclus 20GO e stockage assistance par e-mail<a class="a"
+          href="#">acces au centre d'aide</a>
+      </div>
+      <button class="button"> inscription gratuite</button>
+    </div>
+    <div class="pro on ">
+      <div class="pro it">
+        <center><b>pro</b></center>
+      </div>
+      <div>
+        <center><b>15$/mois</b></center>20 utilisateur inclus 10 GO de stockage assistance par eémail proritaire
+        <a class="a" href="#">acces au centre d'aide</a>
+      </div>
+      <button class="button">commencer</button>
+    </div>
+    <div class="entreprise on">
+      <div class="entreprise it">
+        <center><b>entreprise</b></center>
+      </div>
+      <div>
+        <center><b>20$/mois</b></center>20 utilisateur inclus 15 GO de stockage assistance par eémail telephone
+        <a class="a" href="#">acces au centre d'aide</a>
+      </div>
+      <button class="button">contacter nous</button>
+    </div>
+  </div>
+  <div class="card-footer text-muted">
+    <center>
+      @2025.Lorem ipsum, impedit optio sint atque harum! Pariatur nostrum architecto in laboriosam assumenda suscipit
+      ea.
+    </center>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
